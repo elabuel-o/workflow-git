@@ -62,6 +62,11 @@ By the way, you do not have to type `git remote add origin https://...` every ti
 
 #### Viewing the differences
 
-*Before you add your modified files to the staging area, you may want to view the differences: this can be done by typing the following command, which provides you an abbreviate and simple way to visualize the changes in your file:
+* You may want to view the differences in a file after a given commit but **before** you add your modified files to the staging area: this can be done by typing the following command, which provides you an abbreviate and simple way to visualize the changes in your file:
 
 `git diff --stat`
+
+The latter gives you an abbreviated view of the differences within the same file. For a more detailed output just write: 
+
+`git diff --color-words`
+
